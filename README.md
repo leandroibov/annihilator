@@ -125,6 +125,14 @@ The Linux Logs Corruptor primarily reduces the collection of metadata and eviden
 
 While Linux Logs Corruptor and Linux Logs Shred significantly mitigate forensic attacks, they do not provide complete protection.
 
+# Doe monero para nos ajudar: (donate XMR)
+
+## 87JGuuwXzoMGwQAcSD7cvS7D7iacPpN2f5bVqETbUvCgdEmrPZa12gh5DSiKKRgdU7c5n5x1UvZLj8PQ7AAJSso5CQxgjak
+
+Página oficial de segurança digital:
+
+https://traderprofissional.com.br/seguranca-digital.aspx
+
 
 
 
