@@ -1,7 +1,7 @@
 
-#Annihilator: Anti-Forensic Data and Metadata Protection Tool
+# Annihilator: Anti-Forensic Data and Metadata Protection Tool
 
-##Installation Instructions
+## Installation Instructions
 
 To install Annihilator, follow these steps:
 
@@ -18,7 +18,7 @@ To install Annihilator, follow these steps:
 
 
 
-##Usage Instructions
+## Usage Instructions
 
 
 To use Annihilator, follow these steps:
@@ -33,7 +33,7 @@ To use Annihilator, follow these steps:
     Follow the prompts to select the desired option and provide the required input
 
 
-##What is Annihilator?
+## What is Annihilator?
 
 Annihilator is a data security and protection tool designed to protect sensitive data from unauthorized access and forensic analysis. It provides a range of options to corrupt, rename, and securely delete files and directories, making it difficult for attackers to recover sensitive information.
 
@@ -54,7 +54,7 @@ By using Annihilator, you can protect your sensitive data from unauthorized acce
 
 
 
-##Here is a detailed description of each method of Annihilator and its benefits for protecting sensitive data against physical forensic attacks for data and metadata collection:
+## Here is a detailed description of each method of Annihilator and its benefits for protecting sensitive data against physical forensic attacks for data and metadata collection:
 
     Corruptor: This method corrupts the selected files and directories, making them unreadable and inaccessible. This is done by adding random data and overwriting the original data, making it impossible for forensic attacks to recover the original data.
 
@@ -95,11 +95,11 @@ Benefit: Protects sensitive data against forensic attacks that attempt to recove
 By using Annihilator, individuals and organizations can protect their sensitive data against physical forensic attacks and ensure that their data is handled and deleted securely.
 
 
-#Warning: Linux Logs Corruptor and Linux Logs Shred Effectiveness
+# Warning: Linux Logs Corruptor and Linux Logs Shred Effectiveness
 
 Linux systems must be configured to automatically eliminate specific data and metadata to defend against forensic attacks. For instance, it is advisable not to use swap space for security reasons, as forensic techniques can recover data from it. Additionally, the /tmp directory can leave behind metadata and traces, so using tmpfs and configuring /etc/fstab accordingly is recommended. It is preferable to operate Linux with more RAM or to disable swap entirely for sensitive operations. However, this requires a Linux system with sufficient RAM.
 
-Warning 2: Customization Required
+## Warning 2: Customization Required
 
 Different programs may log data and metadata in various locations within the Linux system. To effectively destroy these logs, a customized strategy is necessary after thorough analysis. Potential storage locations include:
 
