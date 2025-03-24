@@ -378,7 +378,6 @@ echo
 #---------------------------------------------------------------------------
 renamer_oblivion ()
 {
-echo "Renamer Oblivion"
 # Check if the user is root
 echo
 echo "Renamer Oblivion"
@@ -1039,8 +1038,6 @@ echo
 #---------------------------------------------------------------------------
 zero_urandom_fill()
 {
-#!/bin/bash
-
 # Check if the user is root
 check_root() {
     if [ "$EUID" -ne 0 ]; then
