@@ -299,8 +299,9 @@ echo
 
 logstorm ()
 {
-echo "Log Storm (basic forensic sabotage";
+
 # Check if the user is root
+echo "Log Storm (basic forensic sabotage";
 if [ "$EUID" -ne 0 ]; then
     echo "Please run as root."
     exit 1
@@ -366,10 +367,12 @@ if ! [[ "$NUM_ENTRIES" =~ ^[0-9]+$ ]]; then
 fi
 
 # Iterate over all log files in the specified directory
+echo;
+echo "Initiating Basic Sabotage for Forensic Recovery to protect data!";
 find "$LOG_DIR" -type f | while read -r FILE; do
     modify_log "$FILE" "$NUM_ENTRIES"
 done
-echo
+
 }
 
 
@@ -901,6 +904,7 @@ echo
 #---------------------------------------------------------------------------
 metadata_changer_dir ()
 {
+
 # Function to randomize metadata of a file
 randomize_metadata() {
     local FILE="$1"
@@ -962,15 +966,18 @@ if [[ ! "$CONFIRM" =~ ^[yY]$ ]]; then
 fi
 
 # Iterate over all files in the specified directory
+echo;
+echo "Falsifying access and changing data of all files";
 find "$DIR" -type f | while read -r FILE; do
     randomize_metadata "$FILE" "$COUNT"
 done
 
 # Iterate over all directories in the specified directory
+echo;
+echo "Falsifying access and changing data of all directories";
 find "$DIR" -type d | while read -r DIRECTORY; do
     randomize_directory_metadata "$DIRECTORY" "$COUNT"
 done
-
 echo "Metadata modification completed."
 echo
 }
