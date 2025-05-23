@@ -42,11 +42,11 @@ Annihilator offers several benefits for data security and protection:
 
 
   >Prevents data recovery: Annihilator's corruption and deletion methods make it difficult for attackers to recover sensitive data, even using advanced forensic techniques.
-  
+  >
   >Protects against forensic analysis: By corrupting and renaming files and directories, Annihilator makes it challenging for attackers to identify and analyze sensitive data.
-   
+  > 
   >Secures data on non-secure storage devices: Annihilator is particularly useful for securing data on storage devices that do not support secure erase methods, such as SSDs and flash drives.
-   
+  > 
   >Provides a range of options: Annihilator offers a range of options to suit different needs and scenarios, from simple file corruption to advanced secure deletion methods.
 
 By using Annihilator, you can protect your sensitive data from unauthorized access and ensure that it is handled and deleted securely.
