@@ -8,13 +8,12 @@ To install Annihilator, follow these steps:
   >Clone this repository to your local machine using git clone https://github.com/your-username/annihilator.git
   >
   >Navigate to the cloned repository using cd annihilator
-  
+  >
   >Make the file executable using sudo chmod +x /bin/annihilator
-   
+  > 
   >To install Annihilator system-wide, copy the annihilator file to the /bin directory using sudo cp -r annihilator /bin
   >
   >Alternatively, you can execute Annihilator from the current directory using ./annihilator.sh
-  >
 
 
 
@@ -25,11 +24,11 @@ To use Annihilator, follow these steps:
 
   
   >Open a terminal and navigate to the directory where you want to execute Annihilator
-  
+  >
   >If you installed Annihilator system-wide, you can execute it from anywhere using annihilator
-  
+  >
   >If you are executing Annihilator from the current directory, use ./annihilator.sh
-  
+  >
   >Follow the prompts to select the desired option and provide the required input
 
 
@@ -112,7 +111,7 @@ Different programs may log data and metadata in various locations within the Lin
   >Cache files (e.g., /var/cache)
   >
   >Configuration files (e.g., /etc)
-   
+  >
   >Other directories like /var/tmp and ~/.cache
 
 A comprehensive analysis of the system and applications is essential to identify all potential locations for data and metadata storage. Only then can a tailored strategy be developed to ensure the complete elimination of relevant data.
@@ -129,9 +128,9 @@ While Linux Logs Corruptor and Linux Logs Shred significantly mitigate forensic 
 
 ## 87JGuuwXzoMGwQAcSD7cvS7D7iacPpN2f5bVqETbUvCgdEmrPZa12gh5DSiKKRgdU7c5n5x1UvZLj8PQ7AAJSso5CQxgjak
 
-Página oficial de segurança digital:
-
-https://traderprofissional.com.br/seguranca-digital.aspx
+  >Página oficial de segurança digital:
+  >
+  >https://traderprofissional.com.br/seguranca-digital.aspx
 
 
 
