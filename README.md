@@ -124,6 +124,12 @@ The Linux Logs Corruptor primarily reduces the collection of metadata and eviden
 
 While Linux Logs Corruptor and Linux Logs Shred significantly mitigate forensic attacks, they do not provide complete protection.
 
+# Advanced Article and Video Class about how use Annihilator
+
+https://traderprofissional.com.br/como-corromper-arquivos.aspx
+
+https://www.youtube.com/watch?v=EnKMpZV78ZE
+
 # Doe monero para nos ajudar: (donate XMR)
 
     87JGuuwXzoMGwQAcSD7cvS7D7iacPpN2f5bVqETbUvCgdEmrPZa12gh5DSiKKRgdU7c5n5x1UvZLj8PQ7AAJSso5CQxgjak
